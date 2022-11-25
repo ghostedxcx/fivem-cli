@@ -1,6 +1,6 @@
 const components = {
 
-    base: "fx_version \"adamant\"\ngames {\"rdr3\"}\nrdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aware my resources *will* become incompatible once RedM ships.'\n\n",
+    base: "fx_version \"adamant\"\ngames {\"gta5\"}\n\n,
 
     server: "server_scripts {\n\t'server/*.lua'\n}\n\n",
 
