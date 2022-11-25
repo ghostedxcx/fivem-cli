@@ -51,21 +51,12 @@ project.build()
 
 console.clear()
 
-figlet('Project created successfully', async function(err, data) {
-    let rainbow = chalkAnimation.rainbow(data)
-    await Utils.sleep(3000)
-
-    rainbow.stop()
-
-    console.clear()
-})
-
-figlet('QPIXEL', async function(err, data) {
+figlet('QPIXEL TOOL', async function(err, data) {
     let rainbow = chalkAnimation.rainbow(data)
     await Utils.sleep(3000)
     
     rainbow.stop()
 
     console.clear()
-    
+
 })
