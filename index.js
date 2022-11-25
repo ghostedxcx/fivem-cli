@@ -59,3 +59,13 @@ figlet('Project created successfully', async function(err, data) {
 
     console.clear()
 })
+
+figlet('QPIXEL', async function(err, data) {
+    let rainbow = chalkAnimation.rainbow(data)
+    await Utils.sleep(3000)
+    
+    rainbow.stop()
+
+    console.clear()
+    
+})
