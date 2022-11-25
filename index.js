@@ -51,7 +51,7 @@ project.build()
 
 console.clear()
 
-figlet('QPIXEL TOOL', async function(err, data) {
+figlet(':PROJECT CREATED:', async function(err, data) {
     let rainbow = chalkAnimation.rainbow(data)
     await Utils.sleep(3000)
     
