@@ -1,0 +1,21 @@
+{
+    "name": "fivem-cli",
+    "version": "1.0.0",
+    "description": "A tool to create fivem resources",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+
+    },
+    "keywords": ["redm", "fivem", "cli", "tool"],
+    "type": "module",
+    "bin": "./index.js",
+    "author": "Jay AKA Ghxsted",
+    "license": "GPL-3.0-or-later",
+    "dependencies": {
+        "chalk": "^5.0.0",
+        "chalk-animation": "^1.6.0",
+        "figlet": "^1.5.2",
+        "inquirer": "^8.2.0"
+    }
+}
