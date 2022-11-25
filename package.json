@@ -4,7 +4,7 @@
     "description": "A tool to create fivem resources",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "echo \"Error: no test specified\" && exit 1"
 
     },
     "keywords": ["redm", "fivem", "cli", "tool"],
