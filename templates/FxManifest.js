@@ -1,6 +1,6 @@
 const components = {
 
-    base: "fx_version \"adamant\"\ngames {\"gta5\"}\n\n,
+    base: "fx_version \"adamant\"\ngames {\"gta5\"}\n\n\n",
 
     server: "server_scripts {\n\t'server/*.lua'\n}\n\n",
 
