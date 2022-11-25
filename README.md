@@ -7,7 +7,7 @@ This is a helpful tool to help developers like me to speed up their creation pro
 
 The installation process is dead simple. First of all you need to install it globally, so you can call it from anywhere, just type in your terminal:
 ```
-npm i -g fivem-cli
+npm i -g https://github.com/ghostedxcx/fivem-cli
 ```
 
 Done. You can now use the tool by entering the following command in your terminal, be sure to be in the right folder!
@@ -15,4 +15,4 @@ Done. You can now use the tool by entering the following command in your termina
 fivem-cli
 ```
 
-Follow the steps, and you should be ok and good to go!
+Follow the steps, and you should be ok and good to go now go get creative!
