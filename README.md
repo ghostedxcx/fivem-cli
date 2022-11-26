@@ -16,3 +16,7 @@ fivem-cli
 ```
 
 Follow the steps, and you should be ok and good to go now go get creative!
+
+Arrows UP and Down Control it
+and Space to select what folders you want made
+and enter to create.
