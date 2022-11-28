@@ -34,6 +34,8 @@ let { features } = await inquirer.prompt([
             { name: 'MySQL', value: 'mysql' },
             { name: 'NUI', value: 'nui' },
             { name: 'Config', value: 'config' },
+            { name: 'QBClient', value: 'qbclient' },
+            { name: 'QBServer', value: 'qbserver' },
         ],
         validate(answer) {
             if (answer.length < 1) {

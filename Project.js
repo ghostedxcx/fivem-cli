@@ -37,7 +37,11 @@ class Project {
                 fs.mkdirSync(`${this.projectName}/ui/fonts`)
             } else if(component == 'config') {
                 fs.writeFileSync(`${this.projectName}/config.lua`, 'Config = {}')
+            } else if (component == 'qbclient' || component == 'qbserver') {
+                fs.mkdirSync(`${this.projectName}/${component}`)
+                fs.writeFileSync(`${this.projectName}/${component}/${component}.lua`, `local QBCore = exports['qb-core']:GetCoreObject()`)
             }
+
         }
         fs.writeFileSync(`${this.projectName}/fxmanifest.lua`, fxmanifest.build())
     }
