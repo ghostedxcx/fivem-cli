@@ -15,6 +15,8 @@ Done. You can now use the tool by entering the following command in your termina
 fivem-cli
 ```
 
+This resource depends on NPM to run it.
+
 Follow the steps, and you should be ok and good to go now go get creative!
 
 Arrows UP and Down Control it
