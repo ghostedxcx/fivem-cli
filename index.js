@@ -11,10 +11,10 @@ let project = new Project()
 let { projectName } = await inquirer.prompt({
     type: 'input',
     name: 'projectName',
-    message: 'Project name: ',
+    message: 'Resource name: ',
     validate(answer) {
         if (answer.length < 1) {
-            return 'You must enter a project name.'
+            return 'Enter a resource name.'
         }
 
         return true
@@ -26,8 +26,8 @@ project.setName(projectName)
 let { features } = await inquirer.prompt([
     {
         type: 'checkbox',
-        message: 'Select features to create they will be added to the project and structured for you.',
-        name: 'features',
+        message: 'Select files to create they will be added to the project and structured for you.',
+        name: 'FILES',
         choices: [
             { name: 'Client', value: 'client' },
             { name: 'Server', value: 'server' },
@@ -36,6 +36,7 @@ let { features } = await inquirer.prompt([
             { name: 'Config', value: 'config' },
             { name: 'QBClient', value: 'qbclient' },
             { name: 'QBServer', value: 'qbserver' },
+            { name: 'OXCompatible', value: 'oxcompatible' },
         ],
         validate(answer) {
             if (answer.length < 1) {
@@ -53,10 +54,10 @@ project.build()
 
 console.clear()
 
-figlet(':PROJECT CREATED:', async function(err, data) {
+figlet(':RESOURCE CREATED:', async function(err, data) {
     let rainbow = chalkAnimation.rainbow(data)
     await Utils.sleep(3000)
-    
+
     rainbow.stop()
 
     console.clear()

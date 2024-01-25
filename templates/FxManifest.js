@@ -2,6 +2,8 @@ const components = {
 
     base: "fx_version \"cerulean\"\ngames {\"gta5\"}\n\n\n",
 
+    oxcompatible: "shared_scripts {\n\t'@ox_lib/init.lua'\n}\n\n",
+
     server: "server_scripts {\n\t'server/*.lua'\n}\n\n",
 
     client: "client_scripts {\n\t'client/*.lua'\n}\n\n",
