@@ -36,7 +36,7 @@ let { features } = await inquirer.prompt([
             { name: 'Config', value: 'config' },
             { name: 'QBClient', value: 'qbclient' },
             { name: 'QBServer', value: 'qbserver' },
-            { name: 'OXCompatible', value: 'oxcompatible' },
+            //{ name: 'OXCompatible', value: 'oxcompatible' },
         ],
         validate(answer) {
             if (answer.length < 1) {
