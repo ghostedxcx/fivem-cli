@@ -41,7 +41,7 @@ class Project {
                 fs.mkdirSync(`${this.projectName}/${component}`)
                 fs.writeFileSync(`${this.projectName}/${component}/${component}.lua`, `local QBCore = exports['qb-core']:GetCoreObject()`)
             } else if (component == 'oxcompatible') {
-
+                console.log("Resource Now Ox-Compatible.")
             }
 
         }
